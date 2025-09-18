@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <style>
+        body { font-family: Arial; text-align: center; margin-top: 50px; }
+        a { display: inline-block; margin-top: 20px; padding: 10px; background: #f44336; color: white; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <h1>Welcome, {{ request.user.username }}!</h1>
+    <p>You have successfully logged in.</p>
+    <a href="/logout/">Logout</a>
+</body>
+</html>
