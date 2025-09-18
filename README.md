@@ -1,2 +1,1 @@
-This line was written by Teammate.
-
+Conflict line by Teammate
